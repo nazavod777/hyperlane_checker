@@ -87,6 +87,6 @@ func ParseAccount(accountData types.AccountData) {
 
 	if accountBalance > 0 {
 		util.AppendFile("with_balances.txt",
-			fmt.Sprintf("%s | %g $KILO\n", accountData.AccountLogData, accountBalance))
+			fmt.Sprintf("%s | %g $HYPER\n", accountData.AccountLogData, accountBalance))
 	}
 }
